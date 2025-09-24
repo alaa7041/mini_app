@@ -8,7 +8,6 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
     return Scaffold(
       body: SingleChildScrollView(
         child: Padding(
@@ -18,7 +17,7 @@ class HomeScreen extends StatelessWidget {
               InteractiveViewerWidget(),
               SizedBox(height: 40),
               IntrinsicWidthHeightWidget(),
-              SizedBox(height: 20),
+              SizedBox(height: 25),
               AboutDialog(
                 applicationIcon: Icon(Icons.info),
                 applicationVersion: '1.0.0',
